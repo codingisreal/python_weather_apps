@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Development\Python\code\sandbox\venv"
+VIRTUAL_ENV="C:\Users\gwairagade\github\python_weather_apps\sandbox\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
