@@ -13,8 +13,9 @@ def get_weatherinfo(cityname):
   #returns the weatherinfo
      try:
          print('cityname: '+ cityname);
+         print('cityname2: '+ cityname);
          query='q='+cityname;
-         w_data=weather_data(query);        
+         w_data=weather_data(query);
          return w_data;
 
      except:
